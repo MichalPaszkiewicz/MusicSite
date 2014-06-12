@@ -1,0 +1,98 @@
+html{
+	overflow-x: hidden;
+}
+
+body{
+	background-color: black;
+	font-family: "calibri";
+	background: url("background.png");
+	padding: 0px;
+	margin: 0px;
+	z-index: -999;
+	color: gray;
+}
+
+@font-face
+{
+	font-family: TitleFont;
+	src: url(ChopinScript.ttf);
+}
+
+h1, h2, h3{
+	font-family: TitleFont; text-align: center; margin: 20px 0px;
+	font-weight: 100;
+	color: white;
+}
+
+h1{	font-size: 68px; line-height: 68px; }
+h2{ font-size: 40px; }
+h3{ font-size: 30px;}
+
+.background{
+	z-index: -1;
+	background: url("Image1.png") right top no-repeat black;
+	background-size: auto 100%;	
+	opacity: 0.5;
+	position: fixed;
+	top: 0; left: 0;
+	height: 100%;
+	width: 100%;
+
+}
+
+.main-container{
+	margin: 0px;
+	height: 100%;
+	width: 100%;	
+}
+
+
+
+.header, .footer{
+	min-height: 140px; 	border: 1px solid gray; background-color: rgba(0,0,0,0.4); max-width: 900px; margin:auto;
+}
+
+.header{
+	position:relative;
+}
+
+.menu-buttons{
+	position: absolute; right: 0px; bottom: 0px;
+}
+
+a, .footer div{
+	display:block; width: 100px; height: 30px; line-height: 30px; text-align: center; 
+	float: right; text-decoration: none; 
+}
+a:link, a:visited, .footer div {color: gray}
+a:hover {color: darkgray;}
+.footer div:hover{ color: darkgray; cursor:pointer; }
+
+.middle{
+	clear: both; padding: 20px;
+	min-height: 500px;
+}
+
+.center{
+	min-height: 800px;
+	margin: auto; max-width: 800px;
+	color: gray;
+}
+
+#canvas{
+	z-index: -10;
+position: absolute;
+left: 0;
+top: 8;
+
+	opacity: 0.2;
+}
+iframe{
+float: left;
+clear: left;
+margin: 20px;
+z-index: 5;
+opacity: 0.3;
+}
+
+
