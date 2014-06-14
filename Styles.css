@@ -5,7 +5,7 @@ html{
 body{
 	background-color: black;
 	font-family: "calibri";
-	background: url("background.png");
+	background: url("background.PNG");
 	padding: 0px;
 	margin: 0px;
 	z-index: -999;
