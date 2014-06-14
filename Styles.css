@@ -14,6 +14,11 @@ body{
 	width: 100%;
 }
 
+.canvas-container{
+	width: 100%;
+	overflow-x: hidden;
+}
+
 @font-face
 {
 	font-family: TitleFont;
