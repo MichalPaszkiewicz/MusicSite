@@ -1,5 +1,6 @@
 html{
 	overflow-x: hidden;
+	width: 100%;
 }
 
 body{
@@ -10,6 +11,7 @@ body{
 	margin: 0px;
 	z-index: -999;
 	color: gray;
+	width: 100%;
 }
 
 @font-face
