@@ -59,7 +59,7 @@ h3{ font-size: 30px;}
 	height: 140px;
 }
 
-.footer{
+body .footer{
 	position: relative;
   margin-top: -140px;
   width: 100%;
