@@ -10,7 +10,7 @@
 	else{ $("h1").css("font-size","68px").css("line-height","68px"); }
 	};
 
-	$(window).resize(function() { setBodyClass(); });
+	//$(window).resize(function() { setBodyClass(); });
 
 function dot(ctx, x, y) {
     ctx.fillStyle = "gray";
