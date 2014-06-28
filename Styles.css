@@ -76,8 +76,13 @@ body .footer{
 }
 
 .menu-buttons{
-	position: absolute; right: 0px; bottom: 0px;
-}
+	clear: both;
+float: right;
+	}
+	
+	.clearfix{
+		clear:both;
+	}
 
 a, .footer div{
 	display:block; width: 100px; height: 30px; line-height: 30px; text-align: center; 
