@@ -1,5 +1,5 @@
 ﻿$(function() {
-	$("canvas").height() = $(window).height(); 
+	$("canvas").height( $(window).height() ); 
 	
 	function setBodyClass(){
 	var viewPortWidth = $(window).width();
