@@ -31,7 +31,7 @@ h1, h2, h3{
 	color: white;
 }
 
-h1{	font-size: 68px; line-height: 68px; }
+h1{	font-size: 40px; line-height: 40px; }
 h2{ font-size: 40px; }
 h3{ font-size: 30px;}
 
@@ -56,7 +56,7 @@ h3{ font-size: 30px;}
 
 .push, .footer{
 	clear:both;
-	height: 140px;
+	height: 112px;
 	overflow: hidden;
 }
 
@@ -68,7 +68,7 @@ body .footer{
 
 
 .header, .footer{
-	min-height: 140px; 	border: 1px solid gray; background-color: rgba(0,0,0,0.4); max-width: 900px; margin:auto;
+	min-height: 112px; 	border: 1px solid gray; background-color: rgba(0,0,0,0.4); max-width: 900px; margin:auto;
 }
 
 .header{
