@@ -1,5 +1,5 @@
 ﻿$(function() {
-	$(".canvas-container").height( $(window).height() ); 
+	$(".canvas-container").height( $(window).height() - 8 ); 
 	$(".canvas-container").width( $(window).width() ); 
 	
 	function setBodyClass(){
