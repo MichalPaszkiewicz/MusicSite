@@ -54,6 +54,17 @@ h3{ font-size: 30px;}
 }
 
 
+.push, .footer{
+	clear:both;
+	height: 140px;
+}
+
+.footer{
+	position: relative;
+  margin-top: -140px;
+  width: 100%;
+}
+
 
 .header, .footer{
 	min-height: 140px; 	border: 1px solid gray; background-color: rgba(0,0,0,0.4); max-width: 900px; margin:auto;
@@ -77,11 +88,9 @@ a:hover {color: darkgray;}
 
 .middle{
 	clear: both; padding: 20px;
-	min-height: 500px;
 }
 
 .center{
-	min-height: 800px;
 	margin: auto; max-width: 800px;
 	color: gray;
 }
