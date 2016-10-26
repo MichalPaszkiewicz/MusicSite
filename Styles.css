@@ -115,12 +115,6 @@ a:hover {color: darkgray;}
 
 	opacity: 0.2;
 }
-iframe{
-float: left;
-clear: left;
-margin: 20px;
-z-index: 5;
-}
 
     .youtube-player {
         position: relative;
