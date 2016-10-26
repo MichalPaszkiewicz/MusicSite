@@ -63,10 +63,12 @@ function draw() {
 	if( positions[c].X < 3 )
 	{ positions[c].X = canvas.width; }
     }
+	
+    window.requestAnimationFrame(function() { draw(); if(ctx.globalAlpha < 1){ ctx.globalAlpha += 0.1; } });
+
 }
 
 draw();
 
-window.requestAnimationFrame(function() { draw(); if(ctx.globalAlpha < 1){ ctx.globalAlpha += 0.1; } });
 
 });
