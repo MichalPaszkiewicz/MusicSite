@@ -67,6 +67,6 @@ function draw() {
 
 draw();
 
-setInterval(function() { draw(); if(ctx.globalAlpha < 1){ ctx.globalAlpha += 0.01; } }, 80);
+window.requestAnimationFrame(function() { draw(); if(ctx.globalAlpha < 1){ ctx.globalAlpha += 0.1; } });
 
 });
