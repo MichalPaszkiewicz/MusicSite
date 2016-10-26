@@ -68,7 +68,7 @@ function draw() {
 
 }
 
-draw();
+//draw();
 
 
 });
